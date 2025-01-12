@@ -1,0 +1,107 @@
+// AI Interaction Guidelines
+
+// Code Generation Preferences
+- Style Requirements:
+  * Follow project's established patterns
+  * Maintain consistent naming conventions
+  * Include proper error handling
+  * Add comprehensive comments
+  * Include type definitions
+- Quality Standards:
+  * Generate testable code
+  * Include necessary imports
+  * Follow SOLID principles
+  * Implement proper validation
+  * Consider edge cases
+
+// Documentation Generation
+- Code Comments:
+  * Explain complex logic
+  * Document assumptions
+  * Note potential issues
+  * Include examples
+  * Reference related code
+- API Documentation:
+  * Clear endpoint descriptions
+  * Request/response examples
+  * Error scenarios
+  * Authentication requirements
+  * Rate limiting details
+
+// Refactoring Guidance
+- Code Improvement:
+  * Identify code smells
+  * Suggest design patterns
+  * Optimize performance
+  * Enhance readability
+  * Reduce complexity
+- Architecture:
+  * Maintain separation of concerns
+  * Suggest scalable solutions
+  * Consider maintainability
+  * Promote code reuse
+  * Follow best practices
+
+// Problem-Solving Approach
+- Analysis:
+  * Understand requirements
+  * Consider constraints
+  * Evaluate trade-offs
+  * Plan implementation
+  * Consider alternatives
+- Implementation:
+  * Start with simple solution
+  * Iterate and improve
+  * Test assumptions
+  * Document decisions
+  * Consider edge cases
+
+// Testing Strategy
+- Test Generation:
+  * Unit test templates
+  * Integration test scenarios
+  * Edge case coverage
+  * Performance tests
+  * Security tests
+- Test Quality:
+  * Meaningful assertions
+  * Clear test names
+  * Proper setup/teardown
+  * Mock external dependencies
+  * Avoid test duplication
+
+// Security Considerations
+- Code Security:
+  * Input validation
+  * Output sanitization
+  * Secure defaults
+  * Error handling
+  * Authentication/Authorization
+- Best Practices:
+  * Avoid security anti-patterns
+  * Follow secure coding guidelines
+  * Implement proper logging
+  * Handle sensitive data
+  * Use security headers
+
+// Performance Optimization
+- Code Efficiency:
+  * Optimize algorithms
+  * Reduce complexity
+  * Implement caching
+  * Minimize database calls
+  * Handle resources properly
+- Best Practices:
+  * Profile before optimizing
+  * Document optimizations
+  * Measure improvements
+  * Consider trade-offs
+  * Maintain readability
+
+// Learning and Improvement
+- Knowledge Sharing:
+  * Explain decisions
+  * Provide resources
+  * Share best practices
+  * Suggest improvements
+  * Document learnings 

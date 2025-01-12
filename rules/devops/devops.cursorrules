@@ -1,0 +1,98 @@
+// DevOps and Infrastructure Rules
+
+// CI/CD Pipeline
+- Branch Strategy:
+  * main/master: production
+  * develop: integration
+  * feature/*: new features
+  * hotfix/*: urgent fixes
+  * release/*: release candidates
+- Pipeline Stages:
+  * Build
+  * Test
+  * Security Scan
+  * Deploy to Staging
+  * Integration Tests
+  * Deploy to Production
+
+// Infrastructure as Code
+- Use Terraform for cloud infrastructure
+- Use Docker for containerization
+- Use Kubernetes for orchestration
+- Implement auto-scaling
+- Define resource limits
+- Use infrastructure versioning
+
+// Deployment Strategy
+- Blue-Green deployments
+- Canary releases
+- Feature flags
+- Rollback procedures
+- Zero-downtime deployments
+- Database migration strategy
+
+// Environment Management
+- Development:
+  * Local development setup
+  * Docker compose for services
+  * Mock external dependencies
+- Staging:
+  * Mirror production setup
+  * Test data management
+  * Performance testing
+- Production:
+  * High availability setup
+  * Load balancing
+  * CDN configuration
+  * Backup strategy
+
+// Monitoring & Alerting
+- Metrics:
+  * Application metrics
+  * Infrastructure metrics
+  * Business metrics
+  * SLA monitoring
+- Logging:
+  * Centralized logging
+  * Log retention policy
+  * Log analysis
+  * Error tracking
+- Alerting:
+  * Alert thresholds
+  * On-call rotation
+  * Incident classification
+  * Escalation policy
+
+// Performance & Scaling
+- Caching Strategy:
+  * CDN caching
+  * Application caching
+  * Database caching
+- Auto-scaling rules:
+  * CPU utilization
+  * Memory usage
+  * Request count
+  * Custom metrics
+- Load Testing:
+  * Performance benchmarks
+  * Stress testing
+  * Capacity planning
+
+// Disaster Recovery
+- Backup Strategy:
+  * Database backups
+  * File storage backups
+  * Configuration backups
+- Recovery Plans:
+  * RTO (Recovery Time Objective)
+  * RPO (Recovery Point Objective)
+  * Failover procedures
+  * Data center failover
+
+// Documentation
+- Architecture diagrams
+- Deployment procedures
+- Runbooks for common issues
+- Infrastructure documentation
+- Security protocols
+- Emergency procedures 

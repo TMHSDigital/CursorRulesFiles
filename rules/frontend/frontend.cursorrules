@@ -1,0 +1,115 @@
+// Frontend Development Standards
+
+// React Patterns
+- Component Architecture:
+  * Use functional components exclusively
+  * Implement custom hooks for logic reuse
+  * Keep components focused and small
+  * Use TypeScript for type safety
+  * Follow composition over inheritance
+
+// Component Organization
+export const ExampleComponent: React.FC<Props> = ({
+  // Props destructuring with defaults
+  prop1 = defaultValue,
+  prop2,
+  children
+}) => {
+  // 1. Hooks
+  const [state, setState] = useState<StateType>(initialState)
+  const queryResult = useQuery(queryKey, queryFn)
+  const theme = useTheme()
+  
+  // 2. Derived state
+  const computedValue = useMemo(() => {
+    // Complex computations
+  }, [dependencies])
+  
+  // 3. Effects
+  useEffect(() => {
+    // Side effects
+    return () => {
+      // Cleanup
+    }
+  }, [dependencies])
+  
+  // 4. Event handlers
+  const handleEvent = useCallback((event) => {
+    // Event handling logic
+  }, [dependencies])
+  
+  // 5. Render methods
+  const renderItem = (item: ItemType) => (
+    <div key={item.id}>
+      {/* Item rendering */}
+    </div>
+  )
+  
+  // 6. Main render
+  if (isLoading) return <LoadingSpinner />
+  if (error) return <ErrorBoundary error={error} />
+  
+  return (
+    <div>
+      {/* Component JSX */}
+    </div>
+  )
+}
+
+// Data Management
+- State Management:
+  * Use React Query for server state
+  * Implement context for shared state
+  * Keep component state local
+  * Use reducers for complex state
+  * Implement proper caching
+
+// Component Design
+- Props Interface:
+  * Define clear prop interfaces
+  * Use proper TypeScript types
+  * Document complex props
+  * Implement prop validation
+  * Use proper defaults
+- Styling:
+  * Use CSS Modules or styled-components
+  * Implement design tokens
+  * Follow mobile-first approach
+  * Use CSS variables
+  * Maintain consistent spacing
+
+// Performance
+- Optimization:
+  * Implement proper memoization
+  * Use windowing for long lists
+  * Optimize re-renders
+  * Implement code splitting
+  * Use proper Suspense boundaries
+
+// Forms and Validation
+- Form Handling:
+  * Use React Hook Form
+  * Implement proper validation
+  * Handle async validation
+  * Show clear error states
+  * Maintain proper UX
+- Input Components:
+  * Implement controlled inputs
+  * Handle proper keyboard events
+  * Support accessibility
+  * Show validation states
+  * Handle proper focus management
+
+// Testing
+- Component Testing:
+  * Use React Testing Library
+  * Test user interactions
+  * Test accessibility
+  * Mock external dependencies
+  * Test error states
+- Integration:
+  * Test component integration
+  * Test data flow
+  * Test side effects
+  * Test routing
+  * Test state management 

@@ -1,0 +1,89 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Python files
+*.py text diff=python
+*.pyi text diff=python
+*.pyx text diff=python
+*.pxd text diff=python
+requirements*.txt text
+pyproject.toml text
+setup.py text
+setup.cfg text
+*.ipynb text
+
+# JavaScript/TypeScript files
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.json text
+*.css text
+*.scss text
+*.html text
+package.json text
+package-lock.json text
+yarn.lock text
+
+# Documentation
+*.md text diff=markdown
+*.mdx text diff=markdown
+*.rst text
+*.txt text
+LICENSE text
+*.yml text
+*.yaml text
+*.toml text
+
+# Graphics
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Data files
+*.csv text
+*.tsv text
+*.json text
+*.xml text
+*.yaml text
+*.yml text
+
+# ML model files (treat as binary)
+*.h5 binary
+*.pkl binary
+*.pth binary
+*.onnx binary
+*.pb binary
+*.tflite binary
+
+# Jupyter notebook
+*.ipynb text
+
+# Shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+*.fish text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Docker
+Dockerfile text
+docker-compose*.yml text
+.dockerignore text
+
+# Git config
+.gitattributes text
+.gitignore text
+.gitconfig text
+
+# Exclude files from exporting
+.gitattributes export-ignore
+.gitignore export-ignore
+.gitkeep export-ignore 

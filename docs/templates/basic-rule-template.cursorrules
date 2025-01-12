@@ -1,0 +1,101 @@
+// Basic CursorRules Template
+// Description: A template for creating new .cursorrules files
+
+// Section 1: Overview
+- Purpose:
+  * Define the purpose of these rules
+  * Specify the target audience
+  * List key objectives
+  * Define scope
+  * Note any prerequisites
+
+// Section 2: Standards
+- Naming Conventions:
+  * Define naming patterns
+  * List exceptions
+  * Provide examples
+  * Note restrictions
+  * Define abbreviations
+
+// Section 3: Structure
+- Organization:
+  * Define file structure
+  * Specify grouping rules
+  * List required files
+  * Define relationships
+  * Note dependencies
+
+// Section 4: Patterns
+- Implementation:
+  * Define common patterns
+  * List anti-patterns
+  * Provide examples
+  * Note edge cases
+  * Define best practices
+
+// Section 5: Quality
+- Requirements:
+  * Define quality metrics
+  * List required tests
+  * Specify coverage
+  * Define review process
+  * Note acceptance criteria
+
+// Section 6: Documentation
+- Guidelines:
+  * Define doc requirements
+  * Specify formats
+  * List required sections
+  * Define examples
+  * Note maintenance
+
+// Section 7: Process
+- Workflow:
+  * Define development flow
+  * List review steps
+  * Specify deployment
+  * Define monitoring
+  * Note maintenance
+
+// Section 8: Examples
+// Example 1: Basic Implementation
+implementation Example {
+  // Structure
+  - Follow defined patterns
+  - Use proper naming
+  - Include documentation
+  
+  // Quality
+  - Include tests
+  - Meet coverage
+  - Pass review
+}
+
+// Example 2: Advanced Pattern
+advancedPattern Example {
+  // Implementation
+  - Handle edge cases
+  - Include error handling
+  - Optimize performance
+  
+  // Documentation
+  - Include examples
+  - Note limitations
+  - Define use cases
+}
+
+// Section 9: References
+- Resources:
+  * Link to standards
+  * Reference docs
+  * Related guides
+  * Tools documentation
+  * Community resources
+
+// Section 10: Maintenance
+- Updates:
+  * Version control
+  * Change process
+  * Review cycle
+  * Deprecation
+  * Migration guides 

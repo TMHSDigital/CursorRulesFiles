@@ -1,0 +1,113 @@
+// Modern Development Practices and AI Integration Rules
+
+// AI-Assisted Development
+- Code Generation:
+  * Use AI pair programming tools (Copilot, CodeWhisperer)
+  * Validate AI-generated code thoroughly
+  * Keep human oversight for critical logic
+  * Document AI-generated sections
+  * Maintain consistent style with AI outputs
+- Code Review:
+  * Use AI for initial code reviews
+  * Implement automated quality checks
+  * Combine AI and human reviews
+  * Focus on logic and security implications
+  * Track AI review metrics
+
+// LLM Integration Patterns
+- Architecture:
+  * Implement RAG (Retrieval Augmented Generation)
+  * Use parameter-efficient fine-tuning
+  * Implement proper prompt engineering
+  * Handle multi-modal inputs appropriately
+  * Version control prompts and models
+- Security:
+  * Implement input validation for prompts
+  * Monitor for prompt injection attacks
+  * Implement rate limiting
+  * Validate AI outputs
+  * Handle sensitive data appropriately
+
+// Modern Frontend Practices
+- Micro-Frontend Architecture:
+  * Use module federation
+  * Implement independent deployments
+  * Share common dependencies
+  * Handle cross-cutting concerns
+  * Maintain consistent UX
+- Performance:
+  * Implement edge-side rendering
+  * Use modern build tools (Vite, esbuild)
+  * Optimize bundle sizes
+  * Implement proper caching
+  * Monitor Core Web Vitals
+
+// Cloud-Native Patterns
+- Service Architecture:
+  * Implement service mesh
+  * Use edge computing where beneficial
+  * Adopt serverless where appropriate
+  * Implement proper observability
+  * Use infrastructure as code
+- Data Management:
+  * Implement edge databases
+  * Use distributed caching
+  * Handle eventual consistency
+  * Implement proper backups
+  * Monitor data access patterns
+
+// DevOps Evolution
+- Deployment:
+  * Use GitOps workflows
+  * Implement feature flags
+  * Use canary deployments
+  * Automate rollbacks
+  * Monitor deployment health
+- Observability:
+  * Use OpenTelemetry
+  * Implement distributed tracing
+  * Monitor service dependencies
+  * Track business metrics
+  * Use proper logging
+
+// Quality Engineering
+- Testing Strategy:
+  * Implement AI-assisted testing
+  * Use property-based testing
+  * Implement chaos engineering
+  * Monitor production metrics
+  * Automate security testing
+- Performance:
+  * Use real user monitoring
+  * Implement synthetic monitoring
+  * Track performance budgets
+  * Monitor third-party impact
+  * Use proper load testing
+
+// Security Practices
+- Zero Trust:
+  * Implement proper authentication
+  * Use fine-grained authorization
+  * Monitor all access attempts
+  * Implement proper encryption
+  * Use security scanning
+- Compliance:
+  * Follow data protection regulations
+  * Implement audit logging
+  * Monitor security metrics
+  * Handle data retention
+  * Implement proper backups
+
+// Developer Experience
+- Tooling:
+  * Use modern IDEs with AI support
+  * Implement proper debugging tools
+  * Use productivity analytics
+  * Maintain documentation
+  * Automate common tasks
+- Collaboration:
+  * Use pair programming tools
+  * Implement code review tools
+  * Use project management integration
+  * Track team metrics
+  * Maintain knowledge bases 
