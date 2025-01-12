@@ -35,43 +35,57 @@
             </div>
         </section>
 
-        <section id="overview" class="container">
-            <h2>Overview</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <h3>Project Rules</h3>
-                    <p>Core guidelines for project structure, coding standards, and best practices.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Frontend Rules</h3>
-                    <p>Modern frontend development patterns with React, Next.js, and more.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Backend Rules</h3>
-                    <p>Backend development guidelines for FastAPI, Node.js, and databases.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>AI/ML Rules</h3>
-                    <p>Best practices for AI/ML development, training, and deployment.</p>
+        <section id="overview" class="container collapsible">
+            <button class="section-header" onclick="toggleSection('overview-content')">
+                <h2>Overview</h2>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div id="overview-content" class="section-content">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Project Rules</h3>
+                        <p>Core guidelines for project structure, coding standards, and best practices.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Frontend Rules</h3>
+                        <p>Modern frontend development patterns with React, Next.js, and more.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Backend Rules</h3>
+                        <p>Backend development guidelines for FastAPI, Node.js, and databases.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>AI/ML Rules</h3>
+                        <p>Best practices for AI/ML development, training, and deployment.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="features" class="container">
-            <h2>Key Features</h2>
-            <ul class="feature-list">
-                <li>✨ Comprehensive development guidelines</li>
-                <li>🚀 Modern tech stack support</li>
-                <li>🔧 Customizable rule templates</li>
-                <li>📚 Detailed examples and documentation</li>
-                <li>🤖 AI/ML development best practices</li>
-                <li>🔒 Security and testing guidelines</li>
-            </ul>
+        <section id="features" class="container collapsible">
+            <button class="section-header" onclick="toggleSection('features-content')">
+                <h2>Key Features</h2>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div id="features-content" class="section-content">
+                <ul class="feature-list">
+                    <li>✨ Comprehensive development guidelines</li>
+                    <li>🚀 Modern tech stack support</li>
+                    <li>🔧 Customizable rule templates</li>
+                    <li>📚 Detailed examples and documentation</li>
+                    <li>🤖 AI/ML development best practices</li>
+                    <li>🔒 Security and testing guidelines</li>
+                </ul>
+            </div>
         </section>
 
-        <section id="examples" class="container">
-            <h2>Example Usage</h2>
-            <pre><code class="language-bash"># Clone the repository
+        <section id="examples" class="container collapsible">
+            <button class="section-header" onclick="toggleSection('examples-content')">
+                <h2>Example Usage</h2>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div id="examples-content" class="section-content">
+                <pre><code class="language-bash"># Clone the repository
 git clone https://github.com/TMHSDigital/CursorRulesFiles
 cd CursorRulesFiles
 
@@ -79,9 +93,9 @@ cd CursorRulesFiles
 cp rules/core/project.cursorrules your-project/.cursorrules/
 cp rules/frontend/frontend.cursorrules your-project/.cursorrules/</code></pre>
 
-            <div class="example-rules">
-                <h3>Project Rules Example</h3>
-                <pre><code class="language-javascript">// project.cursorrules
+                <div class="example-rules">
+                    <h3>Project Rules Example</h3>
+                    <pre><code class="language-javascript">// project.cursorrules
 // Core project setup
 
 // Technology Stack
@@ -97,27 +111,33 @@ cp rules/frontend/frontend.cursorrules your-project/.cursorrules/</code></pre>
   /components   # React components
   /lib         # Shared utilities
   /styles      # Global styles</code></pre>
+                </div>
             </div>
         </section>
 
-        <section id="getting-started" class="container">
-            <h2>Getting Started</h2>
-            <div class="steps">
-                <div class="step">
-                    <h3>1. Clone Repository</h3>
-                    <p>Clone the CursorRules repository to your local machine.</p>
-                </div>
-                <div class="step">
-                    <h3>2. Choose Rules</h3>
-                    <p>Select the rules that match your project requirements.</p>
-                </div>
-                <div class="step">
-                    <h3>3. Customize</h3>
-                    <p>Customize the rules to fit your specific needs.</p>
-                </div>
-                <div class="step">
-                    <h3>4. Implement</h3>
-                    <p>Apply the rules in your Cursor IDE project.</p>
+        <section id="getting-started" class="container collapsible">
+            <button class="section-header" onclick="toggleSection('getting-started-content')">
+                <h2>Getting Started</h2>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div id="getting-started-content" class="section-content">
+                <div class="steps">
+                    <div class="step">
+                        <h3>1. Clone Repository</h3>
+                        <p>Clone the CursorRules repository to your local machine.</p>
+                    </div>
+                    <div class="step">
+                        <h3>2. Choose Rules</h3>
+                        <p>Select the rules that match your project requirements.</p>
+                    </div>
+                    <div class="step">
+                        <h3>3. Customize</h3>
+                        <p>Customize the rules to fit your specific needs.</p>
+                    </div>
+                    <div class="step">
+                        <h3>4. Implement</h3>
+                        <p>Apply the rules in your Cursor IDE project.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -147,5 +167,20 @@ cp rules/frontend/frontend.cursorrules your-project/.cursorrules/</code></pre>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-bash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-javascript.min.js"></script>
+    <script>
+        function toggleSection(contentId) {
+            const content = document.getElementById(contentId);
+            const section = content.closest('.collapsible');
+            const icon = section.querySelector('.fa-chevron-down');
+            
+            content.classList.toggle('expanded');
+            icon.classList.toggle('rotated');
+            
+            // Smooth scroll to section if expanding
+            if (content.classList.contains('expanded')) {
+                section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+    </script>
 </body>
 </html> 
