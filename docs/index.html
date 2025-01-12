@@ -96,17 +96,23 @@
                 </div>
             </button>
             <div id="examples-content" class="section-content">
-                <pre><code class="language-bash"># Clone the repository
+                <div class="code-block">
+                    <pre><code class="language-bash"># Clone the repository
 git clone https://github.com/TMHSDigital/CursorRulesFiles
 cd CursorRulesFiles
 
 # Copy rules to your project
 cp rules/core/project.cursorrules your-project/.cursorrules/
 cp rules/frontend/frontend.cursorrules your-project/.cursorrules/</code></pre>
+                    <button class="copy-btn" onclick="copyCode(this)" data-tooltip="Copy commands" aria-label="Copy commands">
+                        <i class="fas fa-copy"></i>
+                    </button>
+                </div>
 
                 <div class="example-rules">
                     <h3>Project Rules Example</h3>
-                    <pre><code class="language-javascript">// project.cursorrules
+                    <div class="code-block">
+                        <pre><code class="language-javascript">// project.cursorrules
 // Core project setup
 
 // Technology Stack
@@ -122,6 +128,10 @@ cp rules/frontend/frontend.cursorrules your-project/.cursorrules/</code></pre>
   /components   # React components
   /lib         # Shared utilities
   /styles      # Global styles</code></pre>
+                        <button class="copy-btn" onclick="copyCode(this)" data-tooltip="Copy example" aria-label="Copy example">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
