@@ -1,90 +1,40 @@
-# CursorRules Collection
+# CursorRulesFiles
 
-A comprehensive collection of .cursorrules files for modern software development. These rules provide guidance for AI-assisted development, coding standards, and best practices.
+Different versions of .cursorrules files. These files help to keep the integrated LLMs on track. Feel free to customize for your own personal needs.
 
-## Structure
+## Connect With Us
 
-```
-/rules                  # Core rule files
-  /core                 # Core project rules
-    project.cursorrules        # Project structure and standards
-    code_quality.cursorrules   # Code quality guidelines
-  
-  /frontend             # Frontend development rules
-    frontend.cursorrules       # React/Next.js patterns
-    
-  /backend              # Backend development rules
-    backend.cursorrules        # API and service patterns
-    
-  /devops               # DevOps and infrastructure rules
-    devops.cursorrules         # CI/CD and infrastructure
-    
-  /testing              # Testing and QA rules
-    testing.cursorrules        # Testing standards
-    
-  /security             # Security rules
-    security.cursorrules       # Security guidelines
-    
-  /ai                   # AI development rules
-    modern_practices.cursorrules  # Modern AI practices
-    ai_guidelines.cursorrules     # AI interaction guidelines
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/tmhs.ig/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/tm-hospitality-strategies/)
 
-/docs                   # Documentation
-  /examples             # Example implementations
-  /templates            # Rule templates
-  /guides              # Usage guides
-```
+## Overview
 
-## Usage
+This repository contains a collection of `.cursorrules` files for different types of projects:
 
-1. Copy relevant .cursorrules files to your project
-2. Customize rules based on your needs
-3. Place in your project root or specified directories
-4. Cursor will automatically use these rules for AI assistance
+- **Project Rules**: Core guidelines for project structure and standards
+- **Frontend Rules**: Modern frontend development patterns
+- **Backend Rules**: API and database best practices
+- **AI/ML Rules**: Machine learning development guidelines
+- **Testing Rules**: Quality assurance and testing standards
+- **Security Rules**: Security best practices and guidelines
+- **DevOps Rules**: Deployment and infrastructure guidelines
 
-## Rule Categories
+## Getting Started
 
-### Core Rules
-- Project structure and organization
-- Code quality standards
-- Development workflow
+1. Clone the repository
+2. Choose the rules that match your project needs
+3. Copy the relevant `.cursorrules` files to your project
+4. Customize the rules for your specific requirements
 
-### Frontend Rules
-- React/Next.js best practices
-- Component patterns
-- State management
+## Documentation
 
-### Backend Rules
-- API design patterns
-- Service architecture
-- Database management
+Detailed documentation and examples can be found in the `/docs` directory:
 
-### DevOps Rules
-- CI/CD pipelines
-- Infrastructure as Code
-- Monitoring and logging
-
-### Testing Rules
-- Test organization
-- Coverage requirements
-- Testing strategies
-
-### Security Rules
-- Security best practices
-- Authentication/Authorization
-- Data protection
-
-### AI Development Rules
-- AI integration patterns
-- LLM best practices
-- AI-assisted development
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
+- Project setup guides
+- Rule customization examples
+- Best practices
+- Implementation patterns
 
 ## License
 
-MIT License - See LICENSE file for details 
+MIT License - feel free to use and modify for your own projects. 
