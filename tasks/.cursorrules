@@ -1,0 +1,34 @@
+# Cursor Rules for AI Task Management
+
+# General Workflow Enforcement
+- Always check `task.md` before starting any work.
+- Only work on the next incomplete task listed in `task.md`.
+- After completing a task, mark it as completed in `task.md`.
+- Never skip tasks unless explicitly instructed by the user.
+- Do not start a new task if there are unfinished higher-priority tasks unless authorized.
+
+# Task Management Rules
+- If no `task.md` exists, ask the user if you should generate one based on the current project description.
+- When adding new tasks, append them under the correct section in `task.md`, keeping logical order.
+- Break down any complex tasks into subtasks if estimated to require more than 3 steps or significant reasoning.
+
+# Task Execution Standards
+- Focus only on the current active task. Avoid implementing adjacent features unless specified.
+- If a task is too vague or incomplete, request clarification before proceeding.
+- Implement the minimum viable code to satisfy each task cleanly before expanding.
+
+# Quality Assurance Rules
+- After completing each task, perform a basic validation (e.g., compile/test if applicable) before marking it complete.
+- If an implementation results in errors or regressions, treat fixing them as **highest priority tasks** and update `task.md`.
+
+# Communication Rules
+- Always summarize which task is being worked on when providing updates.
+- Notify the user when all tasks in `task.md` are completed.
+- Suggest breaking down further work if the user provides a large or unclear new feature request.
+
+# PRD Handling Rules (if applicable)
+- Use Taskmaster AI or similar tools to parse a PRD into tasks when available.
+- If PRD parsing fails or is ambiguous, ask the user to clarify or assist in task creation.
+
+# Project Adaptability
+- If the project evolves significantly, offer to regenerate or reorganize the `task.md` to maintain workflow integrity.
